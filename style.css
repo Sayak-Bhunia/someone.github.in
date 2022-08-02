@@ -1,0 +1,103 @@
+/*  "/html/online-compiler" IS NEEDED FOR LOADING CUSTOM .otf PATH */
+
+ body {
+    margin: 0;
+    text-align: right;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+
+  .img{
+    border-radius: 100%;
+    margin-top: 335px;
+    margin-right: 194px;
+    width: 132px;
+    height: 128px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.75);
+  }
+
+  .name{
+    color: #e1e2e0;
+    margin-top: 20px;
+    margin-right: 90px;
+    margin-left: 1180px;
+    font-family:monospace;
+    text-shadow: 0 0 10px rgba(0,0,0,0.55);
+
+  }
+
+  .title{
+    color: #0fdfeee2;
+    margin-left: 79%;
+    line-height: 2px;
+    font-size: 18px;
+    text-shadow: 0 0 10px rgba(0,0,0,0.45);
+  }
+
+
+
+ .container{
+    text-align: left;
+    margin-top: none;
+  }
+  
+  @font-face {
+      font-style: regular;
+      font-family: "EuclidCircularA-Regular";
+      src: url("/html/online-compiler/fonts/EuclidCircularA-Regular.otf");
+  }
+    
+  h1 {
+      margin: 16px;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 36px;
+      font-family: EuclidCircularA-Regular;
+  }
+    
+  p {
+      color: rgba(90, 38, 94, 0.87) ;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      margin: auto 16px;
+      font-style: normal;
+      font-family: EuclidCircularA-Regular;
+  }
+  
+  div{
+    height: 89vh;
+    align-items: center;
+    background: linear-gradient(90deg,rgb(18, 231, 234) 0%, rgb(44, 50, 158));
+    background-size: cover;
+    
+  }
+  
+  .btn{
+    font-family: "montserrat",sans-serif;
+    border: 1px solid #3498db;
+    font-size: 20px;
+    font-weight: bold;
+    background: #fff;
+    width: 160px;
+    padding: 10px 20px;
+    text-align: center;
+    color: #3498db;
+    border-radius: 35px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0,0,0,0.35);
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+
+  }
+
+  .btn:hover{
+    color: #fff;
+    background: #0ae3eb;
+    transition: all 300ms linear;
+    cursor: pointer;
+  }
+  
